@@ -1,8 +1,14 @@
 import { createBrowserRouter } from "react-router-dom";
 import Welcome from "../pages/Welcome";
 import Projects from "../pages/Projects";
-import { INICIO, MIS_PROYECTOS, MIS_HABILIDADES } from "../utils/constants";
+import {
+  INICIO,
+  MIS_PROYECTOS,
+  MIS_HABILIDADES,
+  SOBRE_MI,
+} from "../utils/constants";
 import Skills from "../pages/Skills";
+import AboutMe from "../pages/AboutMe";
 
 export const router = createBrowserRouter([
   {
@@ -16,5 +22,9 @@ export const router = createBrowserRouter([
   {
     path: MIS_HABILIDADES,
     element: <Skills />,
+  },
+  {
+    path: SOBRE_MI,
+    element: <AboutMe />,
   },
 ]);

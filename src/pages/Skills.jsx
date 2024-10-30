@@ -61,9 +61,9 @@ const Skills = () => {
                 <li>VS Code</li>
               </ul>
             </div>
-            {/* <div className="bg-white rounded-lg shadow-md p-4 sm:p-6 ">
+            <div className="bg-white rounded-lg shadow-md p-4 sm:p-6 ">
               <div className="flex items-center">
-                <span className="text-3xl sm:text-4xl mr-3 sm:mr-4">🛠</span>
+                <span className="text-3xl sm:text-4xl mr-3 sm:mr-4">🦾</span>
                 <span className="text-sm sm:text-base md:text-lg">
                   Otras Habilidades
                 </span>
@@ -79,16 +79,12 @@ const Skills = () => {
               </h3>
 
               <ul className="list-disc pl-6 space-y-2">
-                <li>React Js</li>
-                <li>React Native</li>
-                <li>Vite</li>
-                <li>Bootstrap</li>
-                <li>Tailwinds</li>
-                <li>PrimeFlex</li>
-                <li>Zustand</li>
-                <li>VS Code</li>
+                <li>Trabajo en Equipo</li>
+                <li>Proactivo</li>
+                <li>Resolutivo</li>
+                <li>Creativo</li>
               </ul>
-            </div> */}
+            </div>
           </div>
         </motion.div>
       </section>
